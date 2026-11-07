@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/src/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>JD PROJECTS</title>
+  </head>
+  <body>
+    <!--------------HEADER AND NAVBAR--------------- -->
+    <header class="header">
+      <!--TECNICA PARA DESAPARECER EL MENU CON CSS-->
+      <input type="checkbox" id="open-menu" class="header__checkbox" />
+      <label for="open-menu" class="header__open-nav-button" role="button">
+        =
+      </label>
+      <div class="header__logo-container">
+        <img
+          src="/src/jd-projects-logo.png"
+          alt="Logo JD PROJECTS"
+          class="header__logo"
+        />
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="#about-me">SOBRE MI</a></li>
+          <li class="header__nav-item"><a href="#portfolio">PORTAFOLIO</a></li>
+          <li class="header__nav-item"><a href="#contact">CONTACTO</a></li>
+          <li class="header__nav-item">
+            <a href="/pages/experience.html">EXPERIENCIA</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#certificate">CERTIFICACIONES</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!------------------MAIN AND ABOUT ME ----------------------->
+    <main class="profile" id="about-me">
+      <!--CAJA PARA DAR ESTILOS UNICAMENTE -->
+      <div class="profile__wrapper">
+        <div class="profile__img-container">
+          <img
+            src="src/juan.jpeg"
+            alt="Imagen Juan David "
+            class="profile__img"
+          />
+        </div>
+        <div class="profile__data-container">
+          <div class="profile__data">
+            <div class="profile__description">
+              <h1>¿Quien es Juan David Rodriguez?</h1>
+              <p>
+                interesado en crear soluciones digitales mediante el desarrollo
+                web y la programación con principal foco en el desarrollo
+                Frontend.En este portafolio presento algunos de mis proyectos,
+                en los que exploro interfaces web, herramientas de programación
+                y aplicaciones con diferentes funcionalidades.
+              </p>
+            </div>
+            <div class="profile__skills-container">
+              <h2>SKILLS</h2>
+              <ul>
+                <li class="profile__skill">
+                  <div class="load-bar bar--html">
+                    <div class="load-bar__bar bar--80 load-bar__html">80%</div>
+                  </div>
+                  <span class="profile__skill-name">HTML </span>
+                </li>
+                <li class="profile__skill">
+                  <div class="load-bar bar--css">
+                    <div class="load-bar__bar bar--60 load-bar__css">60%</div>
+                  </div>
+                  <span class="profile__skill-name">CSS </span>
+                </li>
+                <li class="profile__skill">
+                  <div class="load-bar bar--js">
+                    <div class="load-bar__bar bar--20 load-bar__js">20%</div>
+                  </div>
+                  <span class="profile__skill-name">JS</span>
+                </li>
+                <li class="profile__skill">
+                  <div class="load-bar bar--python">
+                    <div class="load-bar__bar bar--40 load-bar__python">
+                      40%
+                    </div>
+                  </div>
+                  <span class="profile__skill-name">PYTHON</span>
+                </li>
+                <li class="profile__skill">
+                  <div class="load-bar bar--sql">
+                    <div class="load-bar__bar bar--50 load-bar__sql">50%</div>
+                  </div>
+                  <span class="profile__skill-name">SQL </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!---------------PORTFOLIO SECTION---------------------------------------->
+    <section class="portfolio" id="portfolio">
+      <h2>PROYECTOS DESTACADOS</h2>
+
+      <div class="portfolio__project-container">
+        <div class="portfolio__project project__safe-money card">
+          <div class="card__front">
+            <img
+              src="/src/safe-money-1.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <div class="card__overlay">
+              <h2 class="portfolio__project-name">SAFE MONEY</h2>
+            </div>
+          </div>
+
+          <!-- Cara posterior -->
+          <div class="card__back">
+            <img
+              src="/src/safe-money-2.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <p>
+              Un proyecto desarrollado en Java que permite manejar diferentes
+              “bolsillos” o categorías de dinero dentro de una misma cuenta de
+              usuario. Incluye un sistema de login y registro funcional,
+              asegurando que cada usuario pueda administrar de forma segura. Con
+              GUI intuitivo realizado en Java Swing
+            </p>
+
+            <a
+              href="https://github.com/juandavidrodriguezlinaresGH/SafeMoney"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver código en GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio__project project__factorial card">
+          <div class="card__front">
+            <img
+              src="/src/factorial.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <div class="card__overlay">
+              <h2 class="portfolio__project-name">FACTORIAL</h2>
+            </div>
+          </div>
+
+          <!-- Cara posterior -->
+          <div class="card__back">
+            <img
+              src="/src/factorial.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <p>
+              Este proyecto implementa una calculadora de factorial utilizando
+              Java y una interfaz gráfica sencilla (GUI) construida con Swing.
+              El objetivo es permitir al usuario ingresar un número entero y
+              obtener su factorial de manera visual, rápida y amigable.
+            </p>
+
+            <a
+              href="https://github.com/juandavidrodriguezlinaresGH/Calculo-de-Factorial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver código en GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio__project project__pokedex card">
+          <div class="card__front">
+            <img
+              src="/src/pokemon-1.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <div class="card__overlay">
+              <h2 class="portfolio__project-name">POKEDEX</h2>
+            </div>
+          </div>
+
+          <!-- Cara posterior -->
+          <div class="card__back">
+            <img
+              src="/src/pokemon-2.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <p>
+              Proyecto experimental enfocado en el despliegue de aplicaciones en
+              la nube mediante una máquina virtual Ubuntu Server, explorando el
+              uso de inteligencia artificial y conceptos básicos de
+              infraestructura y administración de servidores.
+            </p>
+
+            <a
+              href="https://github.com/juandavidrodriguezlinaresGH/Pokemon_OS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver código en GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio__project project__sensacion-nba card">
+          <div class="card__front">
+            <img
+              src="/src/sensacion-nba-1.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <div class="card__overlay">
+              <h2 class="portfolio__project-name">SENSACION NBA</h2>
+            </div>
+          </div>
+
+          <!-- Cara posterior -->
+          <div class="card__back">
+            <img
+              src="/src/sensacion-nba-2.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <p>
+              Aplicación web desarrollada para explorar información de equipos
+              de la NBA mediante una interfaz visual e interactiva.
+            </p>
+
+            <a
+              href="https://github.com/juandavidrodriguezlinaresGH/Pagina_web_Nba"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver código en GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio__project project__KICKZZN card">
+          <div class="card__front">
+            <img
+              src="/src/KICKZZN-1.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+
+            <div class="card__overlay">
+              <h2 class="portfolio__project-name">KICKZZN</h2>
+            </div>
+          </div>
+
+          <!-- Cara posterior -->
+          <div class="card__back">
+            <img
+              src="/src/KICKZZN-2.png"
+              alt="Proyecto Safe Money"
+              class="card__img"
+            />
+            <p>
+              Experiencia de navegación organizada, aplicando principios de
+              diseño de interfaces y frontend para una tienda Online
+            </p>
+
+            <a
+              href="https://github.com/juandavidrodriguezlinaresGH/KICKZZN"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver código en GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="experience-title">Experiencia</h2>
+      <!--CAJA PARA DAR ESTILOS UNICAMENTE -->
+
+      <div class="experience__wrapper">
+        <div class="experience__img-container">
+          <img
+            src="src/comware.jpg"
+            alt="Imagen Juan David "
+            class="experience__img"
+          />
+        </div>
+        <div class="experience__data-container">
+          <div class="experience__data">
+            <div class="experience__description">
+              <h2>Febrero 2026 - Agosto 2026</h2>
+              <p>
+                Participé en el desarrollo e implementación de seis soluciones
+                tecnológicas orientadas a optimizar procesos empresariales
+                mediante aplicaciones web, automatización e inteligencia
+                artificial. Desarrollé sistemas para el seguimiento automatizado
+                de cuentas por cobrar desde SAP Business One, la gestión
+                centralizada de indicadores de calidad y el control de tareas y
+                productividad de Servicios Generales. Asimismo, configuré
+                tableros de inteligencia de negocios en Apache Superset para
+                encuestas del Metro de Medellín, implementé un asistente
+                comercial basado en IA para consultar certificaciones de
+                experiencia y desarrollé un flujo de procesamiento documental
+                para extraer y analizar responsabilidades tributarias
+                municipales mediante OCR y modelos de IA.
+                <span class="experience__tecnologias">
+                  Tecnologías: HTML, CSS, JavaScript, Python, FastAPI,
+                  PostgreSQL, SQL, n8n, Apache Superset, Open WebUI, OCR y
+                  modelos de inteligencia artificial.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificate" id="certificate">
+      <h2>Certificaciones Destacadas</h2>
+      <div class="certificate--container">
+        <a
+          href="/src/pdf/EnglishScore_Certificate_Juan_David_Rodriguez.pdf"
+          target="_blank"
+        >
+          <div class="certificate__img en"></div>
+        </a>
+
+        <a
+          href="/src/pdf/CCNA-_Introduction_to_Networks_certificate_jdrodriguezlinares-ucompensar-edu-co_3008fed3-9e24-40c0-9327-6029b3881caa.pdf"
+          target="_blank"
+        >
+          <div class="certificate__img redes"></div>
+        </a>
+
+        <a href="/src/pdf/Database_Design.pdf" target="_blank">
+          <div class="certificate__img database"></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="curriculum" id="curriculum">
+      <h2 class="cv-title">Hoja de vida</h2>
+      <div class="curriculum--container">
+        <a
+          href="/src/pdf/Juan_David_Rodriguez_Desarrollador_junior_cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Abrir hoja de vida de Juan David Rodriguez en PDF"
+        >
+          <div class="curriculum__img curriculum__img--cv"></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="form" id="contact">
+      <h2 class="form__title">CONTACTO</h2>
+      <form class="form__form" id="contact-form">
+        <div class="form__input-container">
+          <label for="contact-name"
+            >Nombre
+            <input
+              id="contact-name"
+              name="from_name"
+              type="text"
+              placeholder="Juan Sebastian"
+              required
+            />
+          </label>
+        </div>
+        <div class="form__input-container">
+          <label for="contact-lastname"
+            >Apellido
+            <input
+              id="contact-lastname"
+              name="from_lastname"
+              type="text"
+              placeholder="Katz"
+              required
+            />
+          </label>
+        </div>
+        <div class="form__input-container">
+          <label for="contact-email"
+            >Email
+            <input
+              id="contact-email"
+              name="reply_to"
+              type="email"
+              placeholder="juankatz@gmail.com"
+              required
+            />
+          </label>
+        </div>
+        <div class="form__input-container">
+          <label for="contact-message"
+            >Mensaje
+            <textarea
+              id="contact-message"
+              name="message"
+              placeholder="Sugerencias..."
+              required
+            ></textarea>
+          </label>
+        </div>
+        <div class="form__input-container">
+          <button class="form__submit" type="submit">Enviar mensaje</button>
+        </div>
+        <p class="form__status" id="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+    <footer>
+      <strong> JDPROJECTS </strong> -Copyright <strong> © </strong>
+      <div class="socialmedia-container">
+        <a
+          href="https://github.com/juandavidrodriguezlinaresGH"
+          target="_blank"
+        >
+          <div class="socialmedia-img github-img"></div>
+        </a>
+        <a
+          href="https://www.instagram.com/juandaviidrodriiguez/ "
+          target="_blank"
+        >
+          <div class="socialmedia-img instagram-img"></div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/juandavidrodriguezlinares/"
+          target="_blank"
+        >
+          <div class="socialmedia-img linkedin-img"></div>
+        </a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

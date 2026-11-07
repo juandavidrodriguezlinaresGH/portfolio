@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Experiencia profesional de Juan David Rodriguez en Comware."
+    />
+    <link rel="icon" href="/src/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/pages/experience.css" />
+    <title>Experiencia profesional | JD Projects</title>
+  </head>
+  <body>
+    <header class="header">
+      <input type="checkbox" id="open-menu" class="header__checkbox" />
+      <label
+        for="open-menu"
+        class="header__open-nav-button"
+        aria-label="Abrir menú"
+        >☰</label
+      >
+      <div class="header__logo-container">
+        <img
+          src="/src/jd-projects-logo.png"
+          alt="Logo JD Projects"
+          class="header__logo"
+        />
+      </div>
+      <nav class="header__nav" aria-label="Navegación principal">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="/index.html#about-me">SOBRE MÍ</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/index.html#portfolio">PORTAFOLIO</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/index.html#contact">CONTACTO</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/pages/experience.html" aria-current="page">EXPERIENCIA</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="/index.html#certificate">CERTIFICACIONES</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="experience-page">
+      <section class="experience-hero" aria-labelledby="experience-title">
+        <div class="experience-hero__content">
+          <p class="eyebrow">EXPERIENCIA PROFESIONAL</p>
+          <h1 id="experience-title">
+            Soluciones Implemntadas a Nivel Empresarial
+          </h1>
+          <p class="experience-hero__summary">
+            En Comware participé en el desarrollo e implementación de seis
+            soluciones tecnológicas para automatizar procesos empresariales,
+            centralizar información y facilitar el seguimiento operativo.
+          </p>
+          <dl class="experience-hero__details">
+            <div>
+              <dt>Empresa</dt>
+              <dd>Comware</dd>
+            </div>
+            <div>
+              <dt>Rol</dt>
+              <dd>Practicante</dd>
+            </div>
+            <div>
+              <dt>Periodo</dt>
+              <dd>4 de febrero – 5 de agosto · 6 meses</dd>
+            </div>
+          </dl>
+        </div>
+        
+         <div class="experience__img-container">
+          <img
+            src="/src/comware.jpg"
+            alt="Imagen Juan David "
+            class="experience__img"
+          />
+        </div>
+      </section>
+
+      <section class="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">PROYECTOS Y CONTRIBUCIONES</h2>
+          <p>
+            Cada solución fue orientada a reducir tareas manuales, mejorar la
+            trazabilidad o facilitar la consulta de información.
+          </p>
+        </div>
+        <div class="projects__grid">
+          <article class="project-card">
+            <h3>Automatización de cuentas por cobrar</h3>
+            <p>
+              Implementé en n8n un flujo para gestionar correos de cobranza
+              originados en SAP Business One, analizar las respuestas de
+              clientes con modelos de IA y registrar estados y fechas de pago
+              previstas en una base de datos.
+            </p>
+            <p class="project-card__scope">
+              <strong>Alcance:</strong> seguimiento automatizado de más de 100
+              clientes, mejorando la trazabilidad de las comunicaciones y la
+              consulta de compromisos de pago.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Sistema de gestión de indicadores de calidad</h3>
+            <p>
+              Desarrollé una aplicación web para crear indicadores, asignarlos a
+              una o varias áreas, administrar responsables y consultar gráficos
+              de seguimiento. Incorporé alertas por correo para apoyar la
+              entrega oportuna de información.
+            </p>
+            <p class="project-card__scope">
+              <strong>Alcance:</strong> solución para 8 áreas, orientada a
+              centralizar información antes gestionada en hojas de cálculo.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Gestión de tareas de Servicios Generales</h3>
+            <p>
+              Desarrollé una aplicación web para registrar tareas, horas
+              invertidas y evidencias, con categorías por rol, panel
+              administrativo, gráficos de productividad y correos diarios con
+              estadísticas para el director del área.
+            </p>
+            <p class="project-card__scope">
+              <strong>Alcance:</strong> registro y seguimiento de 7 empleados,
+              facilitando la consulta de productividad individual y grupal.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Tablero de inteligencia de negocios</h3>
+            <p>
+              Configuré un tablero en Apache Superset conectado a la base de
+              datos de encuestas de calidad del Metro de Medellín. Las
+              visualizaciones reflejan nuevas inserciones para facilitar la
+              consulta y el seguimiento de resultados.
+            </p>
+            <p class="project-card__scope">
+              <strong>Alcance:</strong> 1 tablero implementado.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Asistente comercial basado en inteligencia artificial</h3>
+            <p>
+              Configuré un agente en Open WebUI con una base de conocimiento
+              construida a partir de hojas de cálculo sobre certificaciones de
+              experiencia. El asistente permite hacer consultas en lenguaje
+              natural y obtener síntesis de la información.
+            </p>
+            <p class="project-card__scope">
+              <strong>Alcance:</strong> consulta de más de 400 registros, con
+              respuestas de aproximadamente 3 segundos según las pruebas
+              realizadas.
+            </p>
+          </article>
+          <article class="project-card">
+            <h3>Análisis de responsabilidades tributarias municipales</h3>
+            <p>
+              Desarrollé un flujo desde una interfaz web para cargar acuerdos
+              tributarios escaneados, extraer texto mediante OCR, analizar el
+              contenido con modelos de IA y consolidar los resultados en una
+              plantilla enviada por correo para revisión.
+            </p>
+            <p class="project-card__scope">
+              <strong>Alcance:</strong> aproximadamente 10 documentos al mes. La
+              automatización reduce tareas de extracción y organización de un
+              análisis manual que requería entre 2 y 4 horas, manteniendo la
+              revisión del responsable.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="stack" aria-labelledby="stack-title">
+        <div>
+          <p class="eyebrow">STACK TECNOLÓGICO</p>
+          <h2 id="stack-title">Tecnologías utilizadas en Comware</h2>
+        </div>
+        <ul class="stack__list" aria-label="Tecnologías">
+          <li>
+            HTML
+            <div class="technologies html-img"></div>
+          </li>
+          <li>
+            CSS
+            <div class="technologies css-img"></div>
+          </li>
+          <li>
+            JavaScript
+            <div class="technologies js-img"></div>
+          </li>
+          <li>
+            Python
+            <div class="technologies py-img"></div>
+          </li>
+          <li>
+            FastAPI
+            <div class="technologies fast-py-img"></div>
+          </li>
+          <li>
+            PostgreSQL
+            <div class="technologies postgre-sql-img"></div>
+          </li>
+          <li>
+            n8n
+            <div class="technologies n8n-img"></div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <strong> JDPROJECTS </strong> -Copyright <strong> © </strong>
+      <div class="socialmedia-container">
+        <a
+          href="https://github.com/juandavidrodriguezlinaresGH"
+          target="_blank"
+        >
+          <div class="socialmedia-img github-img"></div>
+        </a>
+        <a
+          href="https://www.instagram.com/juandaviidrodriiguez/ "
+          target="_blank"
+        >
+          <div class="socialmedia-img instagram-img"></div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/juandavidrodriguezlinares/"
+          target="_blank"
+        >
+          <div class="socialmedia-img linkedin-img"></div>
+        </a>
+      </div>
+    </footer>
+
+    <script src="/pages/experience.js"></script>
+  </body>
+</html>
